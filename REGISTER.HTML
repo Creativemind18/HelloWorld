@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+</head>
+<body bgcolor ="gray">
+	<center><h1>WELCOME TO REGISTERATION PAGE</center></h1>
+	<script type="text/javascript">
+	function display() {
+		var val=document.getElementById('QUALLIFICATION').value;
+           alert(val);
+}
+
+</script>
+
+	<FORM>
+
+	<h3>
+		<font color="orange">
+		<table align="center">
+			
+			<tr>
+				<td>
+USERNAME</td>
+<td><input type="text" id="textusername"   required/></td></tr>
+<tr><td>PASSWORD</td>
+<td><input type="PASSWORD" name="PASSWORD"></td></tr>
+ <tr><td>SELECT GENDER</td>
+ <td>
+
+<font color="black">
+ 	<input type="radio" name="gender" >male
+      <input type="radio" name="gender">female</td></tr></font>
+<tr><td>ADDRESS</td>
+	<td><textarea rows="5" cols="21"></textarea></td></tr>
+	<tr><td>
+QUALLIFICATION</td>
+<td><select id="QUALLIFICATION" onchange="display()">
+
+<option>SSC</option>
+<option>+2</option>
+<option>B.TECH</option>
+<option>M.TECH</option>
+<option>others</option></select>
+</td></tr>
+<tr><td>
+HOBBIES</td>
+<td><font color="BLACK">
+	<input type="checkbox" >DANCING</br>
+	<input type="checkbox" >PLAYING MUSIC</br>
+	<input type="checkbox" >SINGING SONGS</br>
+	<input type="checkbox" >PLAYING VIDEO GAMES
+</br>
+	<input type="checkbox" >ROMMING OUT SIDE</br>
+	</font>
+
+</td></tr>
+
+<tr><td><input type="button" value="send"></td></tr>
+
+
+
+
+	</h3>
+	</font></table>
+</FORM>
+</body>
+</html>
