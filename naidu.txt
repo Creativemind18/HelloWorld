@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Accident System</title>
+</head>
+<body>
+<p> Accident System<p>
+<input type="text" value="Full Name">
+
+</body>
+</html>
