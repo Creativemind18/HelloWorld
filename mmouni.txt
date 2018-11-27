@@ -1,0 +1,11 @@
+smart weather monitoring system
+
+we propose a smart weather reporting system over the internet. 
+Our proposed system allows for weather parameter reporting over the internet. 
+It allows the people to directly check the weather stats online without the need of a weather forecasting agency. 
+System uses temperature, humidity as well as rain sensor to monitor weather and provide live reporting of the weather 
+statistics. The system constantly monitors temperature using temperature sensor, humidity using humidity sensor and also 
+for rain. The system constantly transmits this data to the microcontroller, which now processes this data and keeps on 
+transmitting it to the online web server over a wifi connection. This data is live updated to be viewed on the online server system. Also system allows user to set alerts for particular instances, the system provides alerts to user if the weather parameters cross those values. 
+Thus the IOT based weather reporting system provides an efficient internet based weather reporting system for users.
+
